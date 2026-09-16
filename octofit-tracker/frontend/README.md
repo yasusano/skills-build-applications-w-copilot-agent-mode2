@@ -1,4 +1,16 @@
-# React + Vite
+# OctoFit Tracker frontend
+
+Define `VITE_CODESPACE_NAME` in `.env.local` when using a remote Codespaces
+backend. Requests then use
+`https://${VITE_CODESPACE_NAME}-8000.app.github.dev/api/[component]/`.
+When it is unset, the safe local fallback is `http://localhost:8000`.
+
+```bash
+cp .env.example .env.local
+```
+
+The API client accepts both array responses and paginated responses with
+`data`, `results`, or `items` arrays.
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
