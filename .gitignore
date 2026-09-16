@@ -11,6 +11,9 @@ node_modules
 /.pnp
 .pnp.js
 
+# OctoFit build output
+octofit-tracker/**/dist/
+
 # testing
 /coverage
 
